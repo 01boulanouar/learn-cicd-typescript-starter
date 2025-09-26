@@ -21,6 +21,6 @@ describe("Api Test", () => {
             authorization: "ApiKey valid_api_key",
             };
         const result = getAPIKey(headers);  
-        expect(result).toEqual("valid_sapi_key");
+        expect(result).toEqual("valid_api_key");
     })
 });
