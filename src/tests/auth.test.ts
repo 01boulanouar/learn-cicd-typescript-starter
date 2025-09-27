@@ -1,6 +1,6 @@
 import { IncomingHttpHeaders } from "http";
 import { getAPIKey } from "src/api/auth";
-import { beforeAll, describe, expect, test } from "vitest";
+import { describe, expect, test } from "vitest";
 
 describe("Api Test", () => {
   test("Empty Headers", () => {
